@@ -8,8 +8,8 @@ from datetime import timedelta as td
 # --- Подключчение к БД ---
 connection = pymysql.connect(
     host='localhost',
-    user='root',                    # <-- Узкажите имя пользователя MySQL сервера
-    password='',                    # <-- Узкажите пароль MySQL сервера
+    user='root',                    # <-- Укажите имя пользователя MySQL сервера
+    password='',                    # <-- Укажите пароль MySQL сервера
     db='all_to_the_bottom',
     charset='utf8mb4',
     cursorclass=DictCursor
