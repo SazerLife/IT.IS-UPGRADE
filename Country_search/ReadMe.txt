@@ -1,0 +1,2 @@
+1. Файл баз данных (SxGeoCity.dat) с диапазонами IP для стран и городов был взят из https://sypexgeo.net/ru/download/
+2. модуль для поиска соответствующей информации в данной БД (pysyge.py) был взят из репозитория https://github.com/idlesign/pysyge
