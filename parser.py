@@ -8,8 +8,8 @@ from pysyge import GeoLocator, MODE_BATCH           # модуль для пар
 # --- Подключчение к БД ---
 connection = pymysql.connect(
     host='localhost',
-    user='root',                    # <-- Узказать имя пользователя MySQL сервера
-    password='',                    # <-- Узказать пароль MySQL сервера
+    user='root',                    # <-- Укажите имя пользователя MySQL сервера
+    password='',                    # <-- Укажите пароль MySQL сервера
     db='all_to_the_bottom',
     charset='utf8mb4',
     cursorclass=DictCursor
