@@ -1,8 +1,9 @@
 # IT.IS-UPGRADE
  Тестовое задание на курс IT.IS-UPGRADE
 # Быстрый старт
-  1) >pip install -r requirements.txt
-  2) Указать в файлах WebApplication.py и parser.py в поля user и password имя пользователя и пароль от локального mySQL сервера
+  1) Ззапустить на локальном сервере MySQL скрипт dbCreator.sql
+  2) >pip install -r requirements.txt
+  3) Указать в файлах WebApplication.py и parser.py в поля user и password имя пользователя и пароль от локального mySQL сервера
 # Для жюри
  В данном репозитории представлено решение, которое является ответом на тестовое задание для участия в {IT.IS} UPGRADE!
  
